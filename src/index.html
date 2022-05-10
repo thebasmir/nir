@@ -10,9 +10,11 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
+    <script>new WOW().init();</script>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -118,7 +120,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -132,16 +134,16 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
         <div id="map"></div>
     <section class="catalog_1" id="catalog_1">
         
             <h2 class="title">МЕНЮ</h2>
             <ul class="catalog__tabs">
-                <li class="catalog__tab catalog__tab_active"><a href="#catalog_1"><div>Салаты</div></li></a>
-                <li class="catalog__tab"><a href="#catalog_2"><div>Закуски</div></li></a>
-                <li class="catalog__tab"><a href="#catalog_3"><div>Вторые блюда</div></li></a>
+                <li class="catalog__tab catalog__tab_active"><a href="#catalog_1"><div>Салаты</div></a></li>
+                <li class="catalog__tab"><a href="#catalog_2"><div>Закуски</div></a></li>
+                <li class="catalog__tab"><a href="#catalog_3"><div>Вторые блюда</div></a></li>
             </ul>
 
             <div class="catalog__content catalog__content_active">
@@ -369,13 +371,13 @@
           
     </section>
 
-    <section class="catalog_2" id="catalog_2">
+    <div class="catalog_2" id="catalog_2">
         
         
         <ul class="catalog__tabs">
-            <li class="catalog__tab catalog__tab_active"> <a href="#catalog_1"><div>Салаты</div></li></a>
-            <li class="catalog__tab"><a href="#catalog_2"><div>закуски</div></li></a>
-            <li class="catalog__tab"><a href="#catalog_3"><div>вторые блюда</div></li></a>
+            <li class="catalog__tab catalog__tab_active"> <a href="#catalog_1"><div>Салаты</div></a></li>
+            <li class="catalog__tab"><a href="#catalog_2"><div>закуски</div></a></li>
+            <li class="catalog__tab"><a href="#catalog_3"><div>вторые блюда</div></a></li>
         </ul>
 
         <div class="catalog__content catalog__content_active">
@@ -611,238 +613,238 @@
             </div>
         </div>
       
-</section>
+    </div>
 
-    <section class="catalog_3" id="catalog_3">
+    <div class="catalog_3" id="catalog_3">
         
     
-    <ul class="catalog__tabs">
-        <li class="catalog__tab catalog__tab_active"><a href="#catalog_1"><div>Салаты</div></li></a>
-        <li class="catalog__tab"><a href="#catalog_2"><div>Закуски</div></li></a>
-        <li class="catalog__tab"><a href="#catalog_3"><div>Вторые блюда</div></li></a>
-    </ul>
+        <ul class="catalog__tabs">
+            <li class="catalog__tab catalog__tab_active"><a href="#catalog_1"><div>Салаты</div></a></li>
+            <li class="catalog__tab"><a href="#catalog_2"><div>Закуски</div></a></li>
+            <li class="catalog__tab"><a href="#catalog_3"><div>Вторые блюда</div></a></li>
+        </ul>
 
-    <div class="catalog__content catalog__content_active">
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/kazan.jpg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Казан кебаб</div>
-                    <div class="catalog-item__descr">Горячий прямо из казана бараний <br> кебаб спешит к вам</div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                </div>
-                <ul class="catalog-item__list ">
-                    <li>500гр корейка баранины
-                    </li>
-                    <li>
-                        250гр картофель
-                    </li>
-                    <li>
-                    100гр салат айсберг</li>
-                    <li>
-                   150гр сладкий перец
-                    </li>
-                    <li>
-                        50гр лук
-                    </li>
-                    <li>
-                        50гр помидоры
-                    </li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
-            </div>
-            <hr>
-            
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">6990 руб.</div>
-                    <div class="catalog-item__price">541 руб.</div>
-                </div>
-                <button class="button button_mini">КУПИТЬ</button>
-            </div>
-        </div>
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/uygur.jpg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Уйгурский лагман</div>
-                    <div class="catalog-item__descr">Король всех видов лагмана <br> без спора уйгурский
+        <div class="catalog__content catalog__content_active">
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/kazan.jpg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Казан кебаб</div>
+                        <div class="catalog-item__descr">Горячий прямо из казана бараний <br> кебаб спешит к вам</div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                     </div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    <ul class="catalog-item__list ">
+                        <li>500гр корейка баранины
+                        </li>
+                        <li>
+                            250гр картофель
+                        </li>
+                        <li>
+                        100гр салат айсберг</li>
+                        <li>
+                    150гр сладкий перец
+                        </li>
+                        <li>
+                            50гр лук
+                        </li>
+                        <li>
+                            50гр помидоры
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
                 </div>
-                <ul class="catalog-item__list">
-                    <li>200гр мясо
-                    </li>
-                    <li>100гр лук         
-                    </li>
-                    <li>100гр помидора
-                   </li>
-                    <li>100гр пекинская капуста
-                    </li>
-                    <li>100гр сладкого перца
-                    </li>
-                     <li>фасоль, чеснок и томат
-                     </li>
-                     <li>
-                         125гр тесто лагмана
-                     </li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
-            </div>
-            <hr>
-
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">490 руб.</div>
-                    <div class="catalog-item__price">400 руб.</div>
-                </div>
-                <button class="button button_mini">КУПИТЬ</button>
-            </div>
-        </div>
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/plov.jpg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Плов узбекский</div>
-                    <div class="catalog-item__descr">Наш плов вам даст атмосферу Узбекистана</div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                </div>
-                <ul class="catalog-item__list">
-                    <li> 1кг рис
-                    </li>
-                    <li> 650гр мясо
-                    </li>
-                    <li>350гр морковь
-                   </li>
-                    <li>300гр лук
-                    </li>
-                    <li>250мл масло растительное
-                    </li>
-                     <li>зира,соль,чеснок,куркума и перец.
-                     </li>
-                     <li> 350мл вода</li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
-            </div>
-            <hr>
-
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">750 руб.</div>
-                    <div class="catalog-item__price">500 руб.</div>
-                </div>
-                <button class="button button_mini">КУПИТЬ</button>
-            </div>
-        </div>
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/pasta.jpg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Паста путтанеска</div>
-                    <div class="catalog-item__descr">Поверьте, вкус нашей пасты прямо <br> из Италии.</div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
-                </div>
-                <ul class="catalog-item__list">
-                    <li>Спагетти: 300г.
-                    </li>
-                    <li>Тунец консервированный: 200г.
-                    </li>
-                    <li>Томаты черри: 100г.
-                    </li>
-                    <li>Базилик свежий или петрушка: 1 пучок.
-                    </li>
-                    <li>Маслины (черные оливки): 100г.
-                    </li>
-                    <li>Перец чили: 1 маленькая штука
-                    </li>
-                    <li>Чеснок: 3 зубчика.  
-                    </li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
-            </div>
-            <hr>
-
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">490 руб.</div>
-                    <div class="catalog-item__price">341 руб.</div>
-                </div>
-                <button class="button button_mini">КУПИТЬ</button>
-            </div>
-        </div>
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/beshbarmak.jpeg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Бешбармак</div>
-                    <div class="catalog-item__descr">Свежий бешбармак из мяса конины откроет новый мир вашего желудка
+                <hr>
+                
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">6990 руб.</div>
+                        <div class="catalog-item__price">541 руб.</div>
                     </div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    <button class="button button_mini">КУПИТЬ</button>
                 </div>
-                <ul class="catalog-item__list">
-                    <li> 500гр конины
-                    </li>
-                    <li> 1л бульона
-                    </li>
-                    <li> 350гр тесто
-                   </li>
-                    <li>250гр лук
-                    </li>
-                    <li> 300гр казы
-                    </li>
-                    <li> соль, перец по вкусу
-                    </li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
             </div>
-            <hr>
-
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">750 руб.</div>
-                    <div class="catalog-item__price">500 руб.</div>
-                </div>
-                <button class="button button_mini">КУПИТЬ</button>
-            </div>
-        </div>
-        <div class="catalog-item">
-            <div class="catalog-item__wrapper">
-                <div class="catalog-item__content catalog-item__content_active">
-                    <img src="img/borsch.jpg" alt="salat" class="catalog-item__img">
-                    <div class="catalog-item__subtitle">Борщ</div>
-                    <div class="catalog-item__descr">Традиционный Борщ. Вкусно как у бабушки
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/uygur.jpg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Уйгурский лагман</div>
+                        <div class="catalog-item__descr">Король всех видов лагмана <br> без спора уйгурский
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                     </div>
-                    <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    <ul class="catalog-item__list">
+                        <li>200гр мясо
+                        </li>
+                        <li>100гр лук         
+                        </li>
+                        <li>100гр помидора
+                    </li>
+                        <li>100гр пекинская капуста
+                        </li>
+                        <li>100гр сладкого перца
+                        </li>
+                        <li>фасоль, чеснок и томат
+                        </li>
+                        <li>
+                            125гр тесто лагмана
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
                 </div>
-                <ul class="catalog-item__list">
-                    <li>80гр свёкла
-                    </li>
-                    <li>200гр картофель
-                    </li>
-                    <li>лук, чеснок и морковь по две штуки
-                   </li>
-                    <li>500гр говядина
-                    </li>
-                    <li>петрушка,укроп,белокочанная капуста
-                    </li>
-                     <li>соль,сахар и подсолнечное масло
-                     </li>
-                    <a href="#" class="catalog-item__back">назад</a>
-                </ul>
-            </div>
-            <hr>
+                <hr>
 
-            <div class="catalog-item__footer">
-                <div class="catalog-item__prices">
-                    <div class="catalog-item__old-price">390 руб.</div>
-                    <div class="catalog-item__price">321 руб.</div>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">490 руб.</div>
+                        <div class="catalog-item__price">400 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
                 </div>
-                <button class="button button_mini">КУПИТЬ</button>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/plov.jpg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Плов узбекский</div>
+                        <div class="catalog-item__descr">Наш плов вам даст атмосферу Узбекистана</div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li> 1кг рис
+                        </li>
+                        <li> 650гр мясо
+                        </li>
+                        <li>350гр морковь
+                    </li>
+                        <li>300гр лук
+                        </li>
+                        <li>250мл масло растительное
+                        </li>
+                        <li>зира,соль,чеснок,куркума и перец.
+                        </li>
+                        <li> 350мл вода</li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">750 руб.</div>
+                        <div class="catalog-item__price">500 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/pasta.jpg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Паста путтанеска</div>
+                        <div class="catalog-item__descr">Поверьте, вкус нашей пасты прямо <br> из Италии.</div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>Спагетти: 300г.
+                        </li>
+                        <li>Тунец консервированный: 200г.
+                        </li>
+                        <li>Томаты черри: 100г.
+                        </li>
+                        <li>Базилик свежий или петрушка: 1 пучок.
+                        </li>
+                        <li>Маслины (черные оливки): 100г.
+                        </li>
+                        <li>Перец чили: 1 маленькая штука
+                        </li>
+                        <li>Чеснок: 3 зубчика.  
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">490 руб.</div>
+                        <div class="catalog-item__price">341 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/beshbarmak.jpeg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Бешбармак</div>
+                        <div class="catalog-item__descr">Свежий бешбармак из мяса конины откроет новый мир вашего желудка
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li> 500гр конины
+                        </li>
+                        <li> 1л бульона
+                        </li>
+                        <li> 350гр тесто
+                    </li>
+                        <li>250гр лук
+                        </li>
+                        <li> 300гр казы
+                        </li>
+                        <li> соль, перец по вкусу
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">750 руб.</div>
+                        <div class="catalog-item__price">500 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="img/borsch.jpg" alt="salat" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Борщ</div>
+                        <div class="catalog-item__descr">Традиционный Борщ. Вкусно как у бабушки
+                        </div>
+                        <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                    </div>
+                    <ul class="catalog-item__list">
+                        <li>80гр свёкла
+                        </li>
+                        <li>200гр картофель
+                        </li>
+                        <li>лук, чеснок и морковь по две штуки
+                    </li>
+                        <li>500гр говядина
+                        </li>
+                        <li>петрушка,укроп,белокочанная капуста
+                        </li>
+                        <li>соль,сахар и подсолнечное масло
+                        </li>
+                        <a href="#" class="catalog-item__back">назад</a>
+                    </ul>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__old-price">390 руб.</div>
+                        <div class="catalog-item__price">321 руб.</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
             </div>
         </div>
-    </div>
   
-</section>
+    </div>
 
     <section class="feed">
         <div class="container">
@@ -924,9 +926,12 @@
         </div>
 
     </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
+    
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
     <script src="js/jquery.validate.min.js"></script>
