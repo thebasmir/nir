@@ -6,12 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tasty Food</title>
     <link rel="shortcut icon" href="icons/logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-    <script>new WOW().init();</script>
 </head>
 <body>
     <section id="up" class="promo">
@@ -76,7 +71,7 @@
                     </div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon">
+                    <img src="icons/advantages/heart.png" alt="heart" class="advantages__icon advantages__icon_animated">
                     <div class="advantages__subtitle">
                         Заботимся о здоровье
                     </div>
@@ -849,7 +844,7 @@
     <section class="feed">
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__backInRight wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                 <img src="img/feed_1.jpg" alt="Robert" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Роберт Уиттакер</div>
@@ -861,7 +856,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__backInLeft wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                 <img src="img/feed_2.jpg" alt="Samat" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Самат Шиноус</div>
@@ -872,7 +867,7 @@
                     </div>
                 </div>
             </div>
-            <div class="feed__item">
+            <div class="feed__item animate__animated animate__backInRight wow" data-wow-duration="1.2s" data-wow-delay="0.8s">
                 <img src="img/feed_3.jpg" alt="Basmir" class="feed__img">
                 <div class="feed__text">
                     <div class="feed__subtitle">Басмир Бэт</div>
@@ -933,6 +928,7 @@
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/jquery.maskedinput.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
